@@ -1,0 +1,15 @@
+img {
+  display: flex;
+  border-radius: 50%;
+  width: 50px;
+}
+.local {
+  color: white;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.home__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
