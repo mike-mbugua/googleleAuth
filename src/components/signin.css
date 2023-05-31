@@ -1,0 +1,17 @@
+.sign__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.google {
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: 1px solid green;
+  background-color: white;
+  cursor: pointer;
+}
+.google:hover {
+  border: 1px solid yellow;
+  color: green;
+}
