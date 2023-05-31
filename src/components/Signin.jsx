@@ -9,8 +9,13 @@ function Signin() {
   const handleClick = () => {
     signInWithPopup(auth, provider).then((data) => {
       setValue(data.user.email);
-      console.log(data);
-      localStorage.setItem("Email", data.user.email);
+      //   console.log(data);
+      localStorage.setItem(
+        "email",
+        data._tokenResponse.firstName,
+        data.user.photoURL
+      );
+      localStorage.setItem("photo", data.user.photoURL);
     });
   };
 
